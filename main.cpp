@@ -2,8 +2,8 @@
 #include <cmath>
 
 int main() {
-    double a = 0.1;
-    double b = 0.2;
+    double a = 2.0;
+    double b = 0.0;
 
     double x = 0.0;
     double y = 0.0;
