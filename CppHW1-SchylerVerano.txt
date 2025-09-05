@@ -1,0 +1,9 @@
+1. rm -r * removes everything in the current directory and since it includes * it will even expand to all files and directories in the current directory and delete them. Since entering cd with no arguments takes you to your home directory, entering these 2 commands will delete everything.
+
+3.Compiling and linking are two separate steps in turning code into a program. Compiling is when the source code you wrote gets translated into object code, which is machine-readable instructions but not yet a complete program. Linking happens afterward, when the linker takes all the object code files and combines them with any external libraries or system code needed, producing a final executable program. In short: compiling translates code, linking stitches everything together.
+
+10. The sum integer isn’t initialized so it starts with garbage and prints out inaccurate results. I would initialize sum to be 0.
+
+11. In this code, n = 0 is assigning n as 0 instead of checking if n equals 0. I would change the code to n == 0.
+
+12. Because the if statement is assigning instead of comparing, the integer i will be continuously set back to 0 as it loops, so i will never reach 10, causing an infinite loop.
