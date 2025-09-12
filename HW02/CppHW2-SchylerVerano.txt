@@ -1,0 +1,12 @@
+2. A function declaration tells the compiler the function’s name, return type, and parameters but doesn’t include the body.
+A function definition provides the full implementation, including the body of the function.
+
+3. C/C++ needs function declarations because the compiler reads code top-to-bottom and must know a function’s signature before it’s used.
+Java doesn’t need them since all methods are defined inside classes, and the compiler/linker already knows their signatures after going through the code twice.
+
+4. The C preprocessor runs before compilation and handles directives that start with # (like #include, #define).It processes macros, includes header files, and conditionally compiles code.
+
+6. You shouldn’t compile a header file (.h) directly — it only contains declarations, not full code.
+It would be better to compile the corresponding .cpp file instead, which includes the header.
+
+8. No, MAX_VALUE is not a variable. It’s a macro constant, the preprocessor replaces every occurrence of MAX_VALUE with 32767 before compilation.
