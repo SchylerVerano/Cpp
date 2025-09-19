@@ -10,4 +10,5 @@ mandelbrot: main.o mandelbrotFunction.o
 	g++ -o mandelbrot main.o mandelbrotFunction.o
 
 clean:
-	rm -f *.o mandelbrot
+	rm -f *.o mandelbrot mandelbrotTextFile.txt
+

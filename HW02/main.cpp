@@ -1,5 +1,5 @@
 #include <cstdio>
-#include "mandelbrot.h"
+#include "MANDELBROT.H"
 //HW02
 
 int main() {

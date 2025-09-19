@@ -1,0 +1,12 @@
+6. The * operator is the de-reference operator, which accesses the value stored at a memory address. The & operator is the address-of operator, which gives the memory address of a variable.
+
+9.
+A pointer to an int
+a constant int
+a pointer to a constant int
+a constant pointer to an int
+a constant pointer to a constant int
+
+12. x2 is a local variable so returning &x2 would return an address to a variable that no longer exists after the function ends. I would just return the value of x2 instead.
+
+13. The seg fault on line 9 if the pointer out, is a nullptr.

@@ -1,4 +1,4 @@
-#include "mandelbrot.h"
+#include "MANDELBROT.H"
 #include <cmath>
 
 int mandelbrot_iterations(double a, double b, int max_iter) {
