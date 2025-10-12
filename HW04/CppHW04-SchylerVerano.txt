@@ -1,0 +1,9 @@
+1. In C++, arrays are low-level blocks of memory and don’t track their size; you must manage memory manually if using dynamic arrays. In Java, arrays are objects that know their length, are always allocated on the heap, and have automatic garbage collection, so memory management is handled for you.
+
+2. *(list + 6)
+
+5. f(a + 2, 4);
+
+6. Arrays in C++ don’t track their length and need a null terminator ‘\0’ to know where the string ends. The code is missing this, so I would add copy[5] = '\0'; after the loop.
+
+13. Stack memory is automatically managed and tied to a function’s scope, but its size is limited. Heap memory can be larger and persists beyond the function that created it, but requires manual management. 
