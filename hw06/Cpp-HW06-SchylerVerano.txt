@@ -1,0 +1,20 @@
+1. Libraries are useful because they provide pre-written code that programmers can reuse, saving time and effort. They allow developers to perform common tasks—like image processing, file handling, or math operations—without having to write everything from scratch.
+
+2. The two types of libraries are static and dynamic (or shared) libraries. Static libraries are compiled into the program at build time, making the executable larger but self-contained, while dynamic libraries are linked at runtime, allowing multiple programs to share the same library code and reducing file size.
+
+3. Using a package manager is better because it automatically downloads, installs, and configures the library and its dependencies, saving time and reducing errors. Compiling a library yourself is useful when you need a custom configuration, a specific version not available through the package manager, or optimizations for your system.
+
+4. 
+all: main
+
+main.o: main.cc
+g++ -c -Wall -Werror -std=c++17 -I/usr/local/include main.cc
+
+main: main.o
+g++ -o main main.o -L/usr/local/lib -lpng
+
+clean:
+rm -f *.o main
+
+
+5. A struct is a user-defined data type in C++ that groups together related variables under a single name. It’s useful for organizing data that belongs together, like storing the red, green, and blue values of a pixel in one object.
