@@ -1,0 +1,16 @@
+1. The problem is that the class definition is missing a semicolon after the closing brace, so I would add a semicolon there.
+
+2. The following is the definition of the constructor for the Projectile class above, but there are three things wrong with it. What are they and how would you fix them?
+
+It should return double and not int, it should be “this->” and not “this.”, and it needs the projectile class scope “Projectile::”
+
+3. 
+a. Returns an int; takes a pointer to an int.
+b. Returns a constant int; takes a pointer to an int.
+c. Returns a constant pointer to a constant int; takes a pointer to an int.
+d. Returns a constant pointer to a constant int; takes a constant int.
+e. Returns a constant int; takes a constant int; does not modify the object.
+
+5. A pointer stores the memory address of a variable and can be reassigned or set to nullptr; you access the value with *. A reference is an alias for an existing variable, must be initialized when declared, cannot be null, and cannot be reassigned. Pointers are more flexible but less safe, while references are safer and simpler but less flexible.
+
+10. Because declaring the parameter as const int value doesn’t prevent anything the method gets a copy of the value anyway, so making it const does not matter and may mislead the programmer.
